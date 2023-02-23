@@ -6,6 +6,7 @@ import { FriendList } from "./FriendList/FriendList";
 import friends from '../friends.json';
 import { TransactionHistory } from "./Transactions/TransactionHistory";
 import transactions from '../transactions.json'
+import { GlobalStyles } from "./GlobalStyled";
 
 
 
@@ -13,6 +14,7 @@ import transactions from '../transactions.json'
 export const App = () => {
   return (
     <div>
+      <GlobalStyles/>
       <Profile
         username={user.username}
         tag={user.tag}
