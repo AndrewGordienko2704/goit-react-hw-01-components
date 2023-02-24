@@ -4,7 +4,7 @@ import { CardStatistics, Title, StatList, Percentage, Item, Label } from './Stat
 export const Statistics = ({ title, stats }) => {
     return (
         <CardStatistics>
-            <Title>{title}</Title>
+            {{title}.length > 0 && <Title>{title}</Title>}
             <StatList>
                 {stats.map(({ id, label, percentage }) => {
                     return (

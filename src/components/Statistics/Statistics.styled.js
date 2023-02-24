@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { getRandomHexColor } from 'getRandomHexColor.js'
+import { getRandomHexColor } from 'utils/getRandomHexColor.js'
 
 export const CardStatistics = styled.section`
   background-color: #fafafa;
